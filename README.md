@@ -13,7 +13,7 @@ This is a console app for windows which you can use to unlock all or some of the
 <h3>Download</h3>
 
 * You can download the executable <a href="https://drive.google.com/file/d/12DaR5tmVsmzErLR6Lt1bjRrhHWpGjrOt/view?usp=sharing">here</a> or <a href="https://github.com/Dextrome/noita-unlock-progress/blob/master/steamworkshop/dextrome_unlock_progress/Noita-UnlockAllProgress.exe">here</a>.
-* Or subscribe to the mod in the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2788862259">steam workshop and look for the executable in</a> <i>...\SteamLibrary\steamapps\workshop\content\881100\2788862259</i>
+* Or subscribe to the mod in the <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2788862259">noita steam workshop</a> and look for the executable in <i>...\SteamLibrary\steamapps\workshop\content\881100\2788862259</i>
 * Or download the source code here and compile the executable in .NET Core
 
 <h3>Todo</h3>
