@@ -2,12 +2,12 @@
 
 This is a console app for windows which you can use to unlock all or some of the following things in Noita:
 
-* Spell Cards (Unlocks spells for spawning in-game)
-* Perks Picked (Used perk progress)
-* Spell Actions (Used spell progress)
-* Enemies Killed (Killed enemies progress) <i><b> -NOT IMPLEMENTED YET</b></i>
-* Secrets (Unlocks amulet, hat, ... I'm not sure what all the rest is used for exactly)
-* Misc Progress (orbs, mini-bosses, essences, endings, nohitrun, ...)
+* Spell Cards ( Unlocks spells for spawning in-game )
+* Perks Picked ( Used perk progress )
+* Spell Actions ( Used spell progress )
+* Enemies Killed ( Killed enemies progress ) <i><b> -NOT IMPLEMENTED YET</b></i>
+* Secrets ( Unlocks amulet, hat, etc... I'm not exactly sure what all the rest is used )
+* Misc Progress ( Orbs, mini-bosses, essences, endings, nohitrun, etc... )
 
 
 <h3>Download</h3>
