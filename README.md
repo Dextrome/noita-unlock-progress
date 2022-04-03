@@ -6,7 +6,7 @@ This is a console app for windows which you can use to unlock all or some of the
 * Perks Picked ( Used perk progress )
 * Spell Actions ( Used spell progress )
 * Enemies Killed ( Killed enemies progress ) <i><b> -NOT IMPLEMENTED YET</b></i>
-* Secrets ( Unlocks amulet, hat, etc... I'm not exactly sure what all the rest is used )
+* Secrets ( Unlocks amulet, hat, etc... I'm not exactly sure what all the rest is used for )
 * Misc Progress ( Orbs, mini-bosses, essences, endings, nohitrun, etc... )
 
 
