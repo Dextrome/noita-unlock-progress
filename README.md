@@ -19,6 +19,7 @@ This is a console app for windows which you can use to unlock all or some of the
  <h2>dextrome_unlock_all_spells</h2
   
   https://github.com/Dextrome/noita-unlock-progress/tree/master/steamworkshop/dextrome_unlock_all_spells
+ 
   https://steamcommunity.com/sharedfiles/filedetails/?id=2789198998
   
   Permanently unlocks all unlockable spells when starting a game with this mod enabled
