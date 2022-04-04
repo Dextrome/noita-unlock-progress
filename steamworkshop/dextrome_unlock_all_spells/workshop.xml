@@ -2,7 +2,7 @@
 	name="Unlock All Spells"
 	description="This mod will unlock all unlockable spells (doesn't affect used spell progress)
 								You only need to start a new game once with this mod enabled and then all spells will be unlocked.
-								Source code can be found at https://github.com/Dextrome/noita-unlock-progress"
+								Source code can be found at https://github.com/Dextrome/noita-unlock-progress, along with a tool to unlock more things."
 	tags="cheats,quality of life"
 	dont_upload_folders=""
 	dont_upload_files=""> 
