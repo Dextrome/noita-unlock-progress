@@ -23,4 +23,4 @@ This is a console app for windows which you can use to unlock all or some of the
 
  <h3>dextrome_unlock_all_progress</h3>
  
- Permanently unlocks everything <i>-(not done yet)</i>
+ Permanently unlocks everything <i><b>-(not done yet)</b></i>
