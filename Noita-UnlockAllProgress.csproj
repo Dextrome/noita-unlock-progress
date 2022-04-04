@@ -14,8 +14,4 @@
     <None Remove="tmp.ods" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="steamworkshop\dextrome_unlock_progress\" />
-  </ItemGroup>
-
 </Project>
