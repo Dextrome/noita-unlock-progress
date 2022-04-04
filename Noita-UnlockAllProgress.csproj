@@ -14,4 +14,10 @@
     <None Remove="tmp.ods" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="stats_enemy.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

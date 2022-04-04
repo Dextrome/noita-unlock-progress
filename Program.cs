@@ -76,7 +76,7 @@
 //}
 
 
-//var dir = Directory.GetFiles(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\save00\persistent\flags").Where(x => x.Contains("perk_picked"));
+//var dir = Directory.GetFiles(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\data\entities\animals");//.Where(x => x.Contains("perk_picked"));
 //foreach (string tmp in dir)
 //{
 //    var fi = new FileInfo(tmp);
@@ -90,6 +90,7 @@ var spell_actions = Helper.GetSpellActions();
 var secrets = Helper.GetSecrets();
 var misc = Helper.GetProgress();
 var perks = Helper.GetPerks();
+var enemies = Helper.GetEnemies();
 Console.WriteLine("What do you wish to unlock?");
 Console.WriteLine("(1) Everything");
 Console.WriteLine("(2) Spell Cards (unlocks all spells for spawn pool)");
@@ -115,7 +116,7 @@ if (re == "n" || re == "no")
 Console.WriteLine("");
 if (Directory.Exists(path) && !Directory.Exists(path + @"\persistent\flags"))
     Console.WriteLine("You need to have started at least 1 game before you can unlock everything");
-
+var enemypath = path + @"\stats";
 path += @"\persistent\flags";
 if (Directory.Exists(path))
 {
@@ -171,7 +172,20 @@ if (Directory.Exists(path))
     //Enemies
     if (opt == "1" || opt == "5")
     {
-        count = 0;
+        if(Directory.Exists(enemypath))
+        {
+            count = 0;
+            foreach(var enemy in enemies)
+            {
+                var fname = enemypath + @"\stats_" + enemy + ".xml";
+                if (!File.Exists(fname))
+                { File.Copy("stats_enemy.xml", fname); count++; Console.WriteLine("Enemy " + enemy + " unlocked."); }
+            }
+
+            Console.WriteLine("--- " + count.ToString() + " Enemy Kill Progress Unlocked ---");
+        }
+        else
+            Console.WriteLine("Could not find " + enemypath);          
     }
 
     //Secrets
