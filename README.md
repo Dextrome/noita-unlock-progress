@@ -1,4 +1,5 @@
 <h2>Console Application</h2>
+<h3>About</h3>
 This is a console app for windows which you can use to unlock all or some of the following things in Noita:
 
 * Spell Cards ( Unlocks spells for spawning in-game )
