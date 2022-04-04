@@ -1,4 +1,4 @@
-<h3>Overview</h3>
+<h2>Overview</h2>
 
 This is a console app for windows which you can use to unlock all or some of the following things in Noita:
 
@@ -10,13 +10,13 @@ This is a console app for windows which you can use to unlock all or some of the
 * Misc Progress ( Orbs, mini-bosses, essences, endings, nohitrun, etc... )
 
 
-<h3>Download</h3>
+<h2>Download</h2>
 
 * You can download the executable <a href="https://drive.google.com/file/d/12DaR5tmVsmzErLR6Lt1bjRrhHWpGjrOt/view?usp=sharing">here</a> or <a href="https://github.com/Dextrome/noita-unlock-progress/blob/master/steamworkshop/dextrome_unlock_progress/Noita-UnlockAllProgress.exe">here</a>
 * Or download the source code here and compile the executable in .NET Core
 
-<h3>Mods</h3>
- <h2>dextrome_unlock_all_spells</h2
+<h2>Mods</h2>
+ <h3>dextrome_unlock_all_spells</h3>
   
   https://github.com/Dextrome/noita-unlock-progress/tree/master/steamworkshop/dextrome_unlock_all_spells
  
