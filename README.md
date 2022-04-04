@@ -5,7 +5,7 @@ This is a console app for windows which you can use to unlock all or some of the
 * Spell Cards ( Unlocks spells for spawning in-game )
 * Perks Picked ( Used perk progress )
 * Spell Actions ( Used spell progress )
-* Enemies Killed ( Killed enemies progress ) <i><b> -NOT IMPLEMENTED YET</b></i>
+* Enemies Killed ( Killed enemies progress ) <i><b>-(NOT IMPLEMENTED YET)</b></i>
 * Secrets ( Unlocks amulet, hat, etc... I'm not exactly sure what all the rest is used for )
 * Misc Progress ( Orbs, mini-bosses, essences, endings, nohitrun, etc... )
 
@@ -20,3 +20,7 @@ This is a console app for windows which you can use to unlock all or some of the
   https://steamcommunity.com/sharedfiles/filedetails/?id=2789198998
   
   Permanently unlocks all unlockable spells when starting a game with this mod enabled
+
+ <h3>dextrome_unlock_all_progress</h3>
+ 
+ Permanently unlocks everything <i>-(not done yet)</i>
