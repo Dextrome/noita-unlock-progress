@@ -5,7 +5,7 @@ This is a console app for windows which you can use to unlock all or some of the
 * Spell Cards ( Unlocks spells for spawning in-game )
 * Perks Picked ( Used perk progress )
 * Spell Actions ( Used spell progress )
-* Enemies Killed ( Killed enemies progress ) <i><b>-(NOT IMPLEMENTED YET)</b></i>
+* Enemies Killed ( Killed enemies progress ) <i>(only works through the in-game mod dextrome_unlock_everything for now)</i>
 * Secrets ( Unlocks amulet, hat, etc... I'm not exactly sure what all the rest is used for )
 * Misc Progress ( Orbs, mini-bosses, essences, endings, nohitrun, etc... )
 
@@ -24,4 +24,12 @@ This is a console app for windows which you can use to unlock all or some of the
 
  <h3>dextrome_unlock_everything</h3>
  
- Permanently unlocks everything <i><b>-(not done yet)</b></i>
+ Permanently unlocks everything!
+
+ For some reason these 5 spells can't be unlocked through the mod, but I have no idea why (works fine in the console app with same entity names):
+* Summon Omega Blade
+* Luminous Drill With Timer
+* Homebringer Teleport Bolt
+* Essence To Power
+* Petrify
+
