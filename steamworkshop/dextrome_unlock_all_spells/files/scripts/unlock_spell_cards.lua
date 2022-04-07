@@ -1,4 +1,5 @@
-dofile_once( "data/scripts/lib/utilities.lua" )
+dofile_once("data/scripts/lib/utilities.lua")
+
 AddFlagPersistent("card_unlocked_duplicate")
 AddFlagPersistent("card_unlocked_pyramid")
 AddFlagPersistent("card_unlocked_rain")

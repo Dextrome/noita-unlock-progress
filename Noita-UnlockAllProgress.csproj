@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <None Update="stats_enemy.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
