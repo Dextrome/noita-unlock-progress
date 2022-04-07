@@ -3,29 +3,29 @@ using System.Security.Cryptography;
 using System.Text;
 
 
-var test = File.ReadAllText(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\save00\stats\_stats.salakieli");
-var test2 = File.ReadAllBytes(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\save00\stats\_stats.salakieli");
+//var test = File.ReadAllText(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\save00\stats\_stats.salakieli");
+//var test2 = File.ReadAllBytes(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\save00\stats\_stats.salakieli");
 
-var key = Encoding.ASCII.GetBytes("536563726574734f66546865416c6c53");
-var nonce = Encoding.ASCII.GetBytes("54687265654579657341726557617463");
-var dataToEncrypt = Encoding.ASCII.GetBytes(@"<E key=""zombie_weak"" value=""880""> \n </E>");
+//var key = Encoding.ASCII.GetBytes("536563726574734f66546865416c6c53");
+//var nonce = Encoding.ASCII.GetBytes("54687265654579657341726557617463");
+//var dataToEncrypt = Encoding.ASCII.GetBytes(@"<E key=""zombie_weak"" value=""880""> \n </E>");
 
-ulong counter = 0;
-using var counterMode = new AesCounterMode(nonce, counter);
-using var encryptor = counterMode.CreateEncryptor(key, null);
-using var decryptor = counterMode.CreateDecryptor(key, null);
+//ulong counter = 0;
+//using var counterMode = new AesCounterMode(nonce, counter);
+//using var encryptor = counterMode.CreateEncryptor(key, null);
+//using var decryptor = counterMode.CreateDecryptor(key, null);
 
-var encryptedData = new byte[dataToEncrypt.Length];
-var bytesWritten = encryptor.TransformBlock(dataToEncrypt, 0, dataToEncrypt.Length, encryptedData, 0);
+//var encryptedData = new byte[dataToEncrypt.Length];
+//var bytesWritten = encryptor.TransformBlock(dataToEncrypt, 0, dataToEncrypt.Length, encryptedData, 0);
 
-var decrypted = new byte[dataToEncrypt.Length];
-decryptor.TransformBlock(encryptedData, 0, bytesWritten, decrypted, 0);
+//var decrypted = new byte[dataToEncrypt.Length];
+//decryptor.TransformBlock(encryptedData, 0, bytesWritten, decrypted, 0);
 
-//decrypted.Should().BeEquivalentTo(dataToEncrypt);
-Console.WriteLine(test);
-Console.WriteLine(Encoding.Default.GetString(dataToEncrypt));
-Console.WriteLine(Encoding.Default.GetString(decrypted));
-Console.WriteLine(Encoding.Default.GetString(encryptedData));
+////decrypted.Should().BeEquivalentTo(dataToEncrypt);
+//Console.WriteLine(test);
+//Console.WriteLine(Encoding.Default.GetString(dataToEncrypt));
+//Console.WriteLine(Encoding.Default.GetString(decrypted));
+//Console.WriteLine(Encoding.Default.GetString(encryptedData));
 
 
 //Unlock Logic
@@ -118,20 +118,21 @@ if (Directory.Exists(path))
     //Enemies
     if (opt == "1" || opt == "5")
     {
-        if(Directory.Exists(enemypath))
-        {
-            count = 0;
-            foreach(var enemy in enemies)
-            {
-                var fname = enemypath + @"\stats_" + enemy + ".xml";
-                if (!File.Exists(fname))
-                { File.WriteAllText(fname, enemyxmltemplate); count++; Console.WriteLine("Enemy " + enemy + " unlocked."); }
-            }
+        //if(Directory.Exists(enemypath))
+        //{
+        //    count = 0;
+        //    foreach(var enemy in enemies)
+        //    {
+        //        var fname = enemypath + @"\stats_" + enemy + ".xml";
+        //        if (!File.Exists(fname))
+        //        { File.WriteAllText(fname, enemyxmltemplate); count++; Console.WriteLine("Enemy " + enemy + " unlocked."); }
+        //    }
 
-            Console.WriteLine("--- " + count.ToString() + " Enemy Kill Progress Unlocked ---");
-        }
-        else
-            Console.WriteLine("Could not find " + enemypath);          
+        //    Console.WriteLine("--- " + count.ToString() + " Enemy Kill Progress Unlocked ---");
+        //}
+        //else
+        //    Console.WriteLine("Could not find " + enemypath);          
+        Console.WriteLine("Not implemented yet. Check out the 'Unlock All Progress' mod on the steam workshop.");
     }
 
     //Secrets
