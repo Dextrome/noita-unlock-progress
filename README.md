@@ -21,8 +21,11 @@ This is a console app for windows which you can use to unlock all or some of the
   https://steamcommunity.com/sharedfiles/filedetails/?id=2789198998
   
   Permanently unlocks all unlockable spells when starting a game with this mod enabled
+  <br><br>
 
  <h3>dextrome_unlock_everything</h3>
+ 
+ https://steamcommunity.com/sharedfiles/filedetails/?id=2790762892
  
  Permanently unlocks everything!
 
