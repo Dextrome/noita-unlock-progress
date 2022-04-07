@@ -5,7 +5,7 @@ function unlockenemy(name)
     local eid = EntityLoad(name)
 	StatsLogPlayerKill(eid)
 	EntityKill(eid)
-	print("Unlocked ".. name)
+	--print("Unlocked ".. name)
 end
 
 unlockenemy("data/entities/animals/acidshooter.xml");

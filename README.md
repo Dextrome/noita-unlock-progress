@@ -22,6 +22,6 @@ This is a console app for windows which you can use to unlock all or some of the
   
   Permanently unlocks all unlockable spells when starting a game with this mod enabled
 
- <h3>dextrome_unlock_all_progress</h3>
+ <h3>dextrome_unlock_everything</h3>
  
  Permanently unlocks everything <i><b>-(not done yet)</b></i>

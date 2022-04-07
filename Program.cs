@@ -2,35 +2,6 @@
 using System.Security.Cryptography;
 using System.Text;
 
-//string pattern = @"secret\S*";
-//string pattern2 = @"\S*_secret\S*";
-//string pattern3 = @"card_unlocked_\S*";
-//string pattern4 = @"essence\S*";
-
-var list = new List<string>();
-
-
-var dir = Directory.GetFiles(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\data\entities\animals").Where(x => x.Contains(".xml"));
-foreach (string tmp in dir)
-{
-    var fi = new FileInfo(tmp);
-    list.Add(fi.FullName.Replace(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\data", "data"));
-}
-
-foreach (var subdir in Directory.GetDirectories(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\data\entities\animals"))
-{
-    foreach (string tmp in Directory.GetFiles(subdir).Where(x => x.Contains(".xml")))
-    {
-        var fi = new FileInfo(tmp);
-        list.Add(fi.FullName.Replace(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\data", "data"));
-    }
-}
-
-foreach (var x in list.Distinct())
-{
-    Console.WriteLine(x);
-}
-
 
 var test = File.ReadAllText(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\save00\stats\_stats.salakieli");
 var test2 = File.ReadAllBytes(@"C:\Users\kenny\AppData\LocalLow\Nolla_Games_Noita\save00\stats\_stats.salakieli");
@@ -71,7 +42,7 @@ Console.WriteLine("(1) Everything");
 Console.WriteLine("(2) Spell Cards (unlocks all spells for spawn pool)");
 Console.WriteLine("(3) Picked Perks (used perks progress)");
 Console.WriteLine("(4) Spell Actions (used spells progres)");
-Console.WriteLine("(5) Enemies Killed (Killed enemies progress)");
+Console.WriteLine("(5) Enemies Killed (Killed enemies progress) (only available in the in-game mod atm)");
 Console.WriteLine("(6) Secrets (amulet, hat, etc)");
 Console.WriteLine("(7) In-game progress (orbs, mini-bosses, essences, endings, nohitrun, etc)");
 var opt = Console.ReadLine();
