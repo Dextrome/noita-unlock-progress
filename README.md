@@ -24,4 +24,12 @@ This is a console app for windows which you can use to unlock all or some of the
 
  <h3>dextrome_unlock_everything</h3>
  
- Permanently unlocks everything <i><b>-(not done yet)</b></i>
+ Permanently unlocks everything!
+
+ For some reason these 5 spells can't be unlocked through the mod, but I have no idea why (works fine in the console app with same entity names):
+* Summon Omega Blade
+* Luminous Drill With Timer
+* Homebringer Teleport Bolt
+* Essence To Power
+* Petrify
+
