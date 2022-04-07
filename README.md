@@ -12,7 +12,7 @@ This is a console app for windows which you can use to unlock all or some of the
 <h3>Download</h3>
 
 * You can download the repository and compile the executable in .NET Core
-* Or download the executable <a href="https://drive.google.com/file/d/12DaR5tmVsmzErLR6Lt1bjRrhHWpGjrOt/view?usp=sharing">here</a> or <a href="https://github.com/Dextrome/noita-unlock-progress/blob/master/pub/Noita-UnlockAllProgress.exe">here</a>
+* Or download the executable <a href="https://github.com/Dextrome/noita-unlock-progress/raw/master/pub/Noita-UnlockAllProgress.exe">here</a> or <a href="https://drive.google.com/file/d/12DaR5tmVsmzErLR6Lt1bjRrhHWpGjrOt/view?usp=sharing">here</a>
 
 
 <h2>Noita Mods</h2>
