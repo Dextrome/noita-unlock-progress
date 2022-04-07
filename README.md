@@ -20,11 +20,14 @@ This is a console app for windows which you can use to unlock all or some of the
  
   https://steamcommunity.com/sharedfiles/filedetails/?id=2789198998
   
-  Permanently unlocks all unlockable spells when starting a game with this mod enabled
+  Permanently unlocks all unlockable spells when starting a game with this mod enabled.
+  <br><br>
 
  <h3>dextrome_unlock_everything</h3>
  
- Permanently unlocks everything!
+ https://steamcommunity.com/sharedfiles/filedetails/?id=2790762892
+ 
+ Permanently unlocks <b>everything</b> when starting a game with this mod enabled.
 
  For some reason these 5 spells can't be unlocked through the mod, but I have no idea why (works fine in the console app with same entity names):
 * Summon Omega Blade
